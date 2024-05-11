@@ -1,0 +1,12 @@
+$(carrusel).ready(function(){
+  $('.carrusel').slick({
+    autoplay: true, // Reproducción automática
+    autoplaySpeed: 2000, // Velocidad de reproducción automática en milisegundos
+    dots: true, // Muestra los puntos de navegación
+    arrows: false, // Oculta las flechas de navegación
+    infinite: true, // Bucle infinito
+    speed: 500, // Velocidad de transición en milisegundos
+    slidesToShow: 3, // Número de imágenes a mostrar a la vez
+    slidesToScroll: 1 // Número de imágenes a desplazar con cada cambio
+  });
+});
